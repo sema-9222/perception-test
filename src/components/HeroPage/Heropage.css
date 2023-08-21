@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Manrope&family=Montserrat:wght@300&display=swap");
+
+.hero-container {
+  display: flex;
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 3px;
+  height: 130vh;
+  padding-top: 5%;
+}
+
+.hero-page-pic {
+  width: 50vw;
+  position: absolute;
+  right: 0;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  align-content: center;
+  width: 50vw;
+  margin-left: 7%;
+  color: #0a2540;
+}
+
+.hero-h1 {
+  font-size: 4.3vw;
+  width: 60vh;
+  text-align: justify;
+  margin-bottom: 2px;
+}
+
+.hero-info {
+  font-size: 1.3vw;
+  width: 80vh;
+  text-align: start;
+}
+
+.take-test {
+  background-color: rgba(61, 165, 165, 1);
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.1vw;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(136, 144, 194, 0.2);
+  box-shadow: 0 5px 15px rgba(37, 44, 97, 0.15);
+  margin-top: 3%;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.take-test:hover {
+  cursor: pointer;
+}

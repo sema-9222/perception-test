@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Manrope&family=Montserrat:wght@300&display=swap");
+
+.about-test {
+  height: 100vh;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Manrope", sans-serif;
+}
+.test-image {
+  position: absolute;
+  left: 0;
+  width: 34%;
+}
+
+.about-h1 {
+  font-size: 4vw;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.about-info {
+  font-size: 1.3vw;
+  width: 80%;
+  text-align: start;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  align-content: center;
+  width: 50vw;
+  margin-left: 7%;
+  color: #0a2540;
+  position: absolute;
+  right: 0;
+  letter-spacing: 1.5px;
+}
+
+.check {
+  width: 4%;
+  height: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.checks {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  text-align: left;
+}
+
+.checks-text {
+  margin: 5% 5% 0% 5%;
+  width: 75%;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}

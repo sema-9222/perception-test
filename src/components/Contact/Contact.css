@@ -1,0 +1,90 @@
+.contact {
+  color: #0a2540;
+  height: 114vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contact-head {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 2px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.contact-cont {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  height: 80vh;
+}
+
+.inputs {
+  width: 40%;
+  box-shadow: 0px 4px 5px rgba(154, 150, 150, 0.288);
+}
+
+.infos {
+  width: 40%;
+  background-color: rgba(61, 165, 165, 1);
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 5%;
+}
+
+.name {
+  display: flex;
+  margin: 2% 5%;
+}
+
+.inputplace {
+  height: 5vh;
+  margin: 3% 5%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.139);
+  font-family: "Manrope", sans-serif;
+}
+
+.i-name {
+  width: 50%;
+}
+
+.message {
+  height: 50%;
+}
+
+.inputplace:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.send {
+  width: 30%;
+  margin-left: 20px;
+}
+.info-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 45vh;
+}
+
+.icons-contact {
+  display: flex;
+  margin: 0px 45px;
+  align-items: center;
+}
+
+.info-cont {
+  text-align: start;
+  margin-left: 5%;
+}
